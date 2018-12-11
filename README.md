@@ -12,15 +12,17 @@ For details on power functionality see:
 * WindowsPhone: [UserIdleDetectionMode](http://msdn.microsoft.com/en-US/library/windowsphone/develop/microsoft.phone.shell.phoneapplicationservice.useridledetectionmode%28v=vs.105%29.aspx)
 * Windows: [Windows.System.Display.DisplayRequest](https://msdn.microsoft.com/en-us/library/windows/apps/windows.system.display.displayrequest#methods)
 
+Custom Sensara Changes
+--------------
+1. changed SCREEN_DIM_WAKE_LOCK to PARTIAL_WAKE_LOCK
+2. Added heartbeat to keep awake in android 23+
+
 Installation
 ---------
-Install using npm:
-
-`$ npm i cordova-plugin-powermanagement-orig`
 
 Install the plugin using the cordova command line utility:
 
-`$ cordova plugin add https://github.com/Viras-/cordova-plugin-powermanagement.git`
+`$ cordova plugin add https://github.com/sensara-eu/cordova-plugin-powermanagement.git`
 
 Usage
 -----
